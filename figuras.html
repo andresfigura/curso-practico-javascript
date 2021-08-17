@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Figuras geométricas | Curso Práctico de JavaScript en Platzi</title>
+</head>
+<body>
+  <header>
+    <h1>
+      Figuras geométricas
+    </h1>
+    <p>Este es el primer taller del curso práctico de JavaScript</p>
+  </header>
+
+  <section id="cuadrado">
+    <h2>Calcula el área y perímetro de un cuadrado</h2>
+    <form>
+      <label for="InputCuadrado">
+        Escribe cuánto mide cada lado de tu cuadrado:
+      </label> <br> <hr>
+      <input id="InputCuadrado" type="number" placeholder="Lado" /> <br>
+      <button type="button" onclick="calcularPerimetroCuadrado()">
+        Calcular el perímetro
+      </button>
+      <button type="button" onclick="calcularAreaCuadrado()">
+        Calcular el área
+      </button>
+    </form>
+  </section>
+  <section id="triangulo">
+    <h2>Calcular el area y perimetro del triangulo</h2>
+    <form>
+      <label>escribe cuanto mide cada lado del triangulo y su altura</label> <br> <hr>
+      <label for="ladoTriangulo1">Lado A</label> <br>
+      <input id="ladoTriangulo1" type="number" placeholder="Lado A"/> <br>
+
+      <label for="ladoTriangulo2">Lado B</label> <br>
+      <input id="ladoTriangulo2" type="number" placeholder="Lado B"> <br>
+
+      <label for="base">Base</label> <br>
+      <input id="base" type="number" placeholder="Base"> <br>
+
+      <label for="altura">Altura</label> <br>
+      <input id="altura" type="number" placeholder="Altura"> <br>
+      
+      <button type="button">calcular perimetro</button>
+      <button type="button">calcular area</button>
+    </form>
+  </section>
+  <section id="Circulo">
+    <h2>calcular el area y el perimetro de una circunferencia</h2>
+    <form>
+      <label for="circulo">escriba el valor del <em>radio</em> de la circunferencia</label> <br>
+      <input id="radio" type="number" placeholder="Radio"> <br>
+      <button type="button">calcular perimetro</button>
+      <button type="button"> calcular area</button>
+    </form>
+  </section>
+
+  <script src="./figuras.js"></script>
+</body>
+</html>
